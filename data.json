@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "category": "Electronics"
+  },
+  {
+    "id": 2,
+    "name": "Headphones",
+    "category": "Accessories"
+  },
+  {
+    "id": 3,
+    "name": "Keyboard",
+    "category": "Peripherals"
+  }
+]
