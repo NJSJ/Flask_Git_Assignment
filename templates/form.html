@@ -16,13 +16,12 @@
 <body>
     <div class="form-container">
         <h2>Submit User Data</h2>
-        <!-- Display error message if present without redirecting -->
         {% if error %}
             <div class="error">
                 <strong>Error:</strong> {{ error }}
             </div>
         {% endif %}
-        <form action="/" method="POST">
+        <form action="/submit" method="POST">
             <div class="input-group">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
